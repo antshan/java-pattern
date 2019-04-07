@@ -1,7 +1,6 @@
-package com.spring.pattern.factorymethod;
+package com.spring.pattern.factory.factorymethod;
 
-import com.spring.pattern.BTCDriver;
-import com.spring.pattern.ICoinDriver;
+import com.spring.pattern.factory.ICoinDriver;
 
 /**
  * Created by shanwei on 2019/4/7.

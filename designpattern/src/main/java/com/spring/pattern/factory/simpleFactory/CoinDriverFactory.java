@@ -1,8 +1,8 @@
-package com.spring.pattern.simpleFactory;
+package com.spring.pattern.factory.simpleFactory;
 
-import com.spring.pattern.BTCDriver;
-import com.spring.pattern.ETHDriver;
-import com.spring.pattern.ICoinDriver;
+import com.spring.pattern.factory.BTCDriver;
+import com.spring.pattern.factory.ETHDriver;
+import com.spring.pattern.factory.ICoinDriver;
 
 /**
  * Created by shanwei on 2019/4/7.

@@ -1,4 +1,4 @@
-package com.spring.pattern;
+package com.spring.pattern.factory;
 
 /**
  * Created by shanwei on 2019/4/7.

@@ -1,6 +1,6 @@
-package com.spring.pattern.simpleFactory;
+package com.spring.pattern.factory.simpleFactory;
 
-import com.spring.pattern.ICoinDriver;
+import com.spring.pattern.factory.ICoinDriver;
 
 /**
  * Created by shanwei on 2019/4/7.
