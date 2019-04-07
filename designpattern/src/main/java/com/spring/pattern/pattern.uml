@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.spring.pattern</OriginalElement>
+  <nodes>
+    <node x="0.0" y="203.0">com.spring.pattern.abstractfactory</node>
+    <node x="81.0" y="0.0">com.spring.pattern.ICoinDriver</node>
+    <node x="162.0" y="104.0">com.spring.pattern.ETHDriver</node>
+    <node x="0.0" y="104.0">com.spring.pattern.BTCDriver</node>
+    <node x="0.0" y="279.0">com.spring.pattern.factorymethod</node>
+    <node x="217.0" y="279.0">com.spring.pattern.simpleFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.spring.pattern.BTCDriver" target="com.spring.pattern.ICoinDriver">
+      <point x="0.0" y="-27.0" />
+      <point x="71.0" y="79.0" />
+      <point x="116.5" y="79.0" />
+      <point x="-35.5" y="27.0" />
+    </edge>
+    <edge source="com.spring.pattern.ETHDriver" target="com.spring.pattern.ICoinDriver">
+      <point x="0.0" y="-27.0" />
+      <point x="233.0" y="79.0" />
+      <point x="187.5" y="79.0" />
+      <point x="35.5" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="436.0" y="233.0" />
+  <SelectedNodes>
+    <node>com.spring.pattern.abstractfactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.spring.pattern.abstractfactory</OriginalElement>
+  <nodes>
+    <node x="237.0" y="353.0">com.spring.pattern.abstractfactory.ETHNewAddress</node>
+    <node x="103.5" y="452.0">com.spring.pattern.abstractfactory.IBalance</node>
+    <node x="207.0" y="556.0">com.spring.pattern.abstractfactory.ETHBalance</node>
+    <node x="118.5" y="249.0">com.spring.pattern.abstractfactory.INewAddress</node>
+    <node x="828.1444759206798" y="338.2889518413598">com.spring.pattern.abstractfactory.AbstractFactoryTest</node>
+    <node x="294.0" y="127.0">com.spring.pattern.abstractfactory.BTCDriverFactory</node>
+    <node x="147.0" y="0.0">com.spring.pattern.abstractfactory.ICoinDriverFactory</node>
+    <node x="0.0" y="127.0">com.spring.pattern.abstractfactory.ETHDriverFactory</node>
+    <node x="0.0" y="353.0">com.spring.pattern.abstractfactory.BTCNewAddress</node>
+    <node x="0.0" y="556.0">com.spring.pattern.abstractfactory.BTCBalance</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.spring.pattern.abstractfactory.ETHDriverFactory" target="com.spring.pattern.abstractfactory.ICoinDriverFactory">
+      <point x="0.0" y="-38.5" />
+      <point x="137.0" y="102.0" />
+      <point x="215.5" y="102.0" />
+      <point x="-68.5" y="38.5" />
+    </edge>
+    <edge source="com.spring.pattern.abstractfactory.ETHBalance" target="com.spring.pattern.abstractfactory.IBalance">
+      <point x="0.0" y="-27.0" />
+      <point x="300.5" y="531.0" />
+      <point x="243.75" y="531.0" />
+      <point x="46.75" y="27.0" />
+    </edge>
+    <edge source="com.spring.pattern.abstractfactory.BTCNewAddress" target="com.spring.pattern.abstractfactory.INewAddress">
+      <point x="0.0" y="-27.0" />
+      <point x="108.5" y="328.0" />
+      <point x="172.75" y="328.0" />
+      <point x="-54.25" y="27.0" />
+    </edge>
+    <edge source="com.spring.pattern.abstractfactory.BTCBalance" target="com.spring.pattern.abstractfactory.IBalance">
+      <point x="0.0" y="-27.0" />
+      <point x="93.5" y="531.0" />
+      <point x="150.25" y="531.0" />
+      <point x="-46.75" y="27.0" />
+    </edge>
+    <edge source="com.spring.pattern.abstractfactory.ETHNewAddress" target="com.spring.pattern.abstractfactory.INewAddress">
+      <point x="0.0" y="-27.0" />
+      <point x="345.5" y="328.0" />
+      <point x="281.25" y="328.0" />
+      <point x="54.25" y="27.0" />
+    </edge>
+    <edge source="com.spring.pattern.abstractfactory.BTCDriverFactory" target="com.spring.pattern.abstractfactory.ICoinDriverFactory">
+      <point x="0.0" y="-38.5" />
+      <point x="431.0" y="102.0" />
+      <point x="352.5" y="102.0" />
+      <point x="68.5" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7914798206278026" x="516.6175637393768" y="199.97733711048159" />
+  <SelectedNodes>
+    <node>com.spring.pattern.abstractfactory.AbstractFactoryTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

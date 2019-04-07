@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.spring.pattern.factorymethod</OriginalElement>
+  <nodes>
+    <node x="231.0" y="104.0">com.spring.pattern.factorymethod.BTCDriverFactory</node>
+    <node x="115.5" y="0.0">com.spring.pattern.factorymethod.ICoinDriverFactory</node>
+    <node x="0.0" y="104.0">com.spring.pattern.factorymethod.ETHDriverFactory</node>
+    <node x="0.0" y="203.0">com.spring.pattern.factorymethod.factoryMethodTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.spring.pattern.factorymethod.BTCDriverFactory" target="com.spring.pattern.factorymethod.ICoinDriverFactory">
+      <point x="0.0" y="-27.0" />
+      <point x="336.5" y="79.0" />
+      <point x="273.75" y="79.0" />
+      <point x="52.75" y="27.0" />
+    </edge>
+    <edge source="com.spring.pattern.factorymethod.ETHDriverFactory" target="com.spring.pattern.factorymethod.ICoinDriverFactory">
+      <point x="0.0" y="-27.0" />
+      <point x="105.5" y="79.0" />
+      <point x="168.25" y="79.0" />
+      <point x="-52.75" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="388.0" y="195.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
