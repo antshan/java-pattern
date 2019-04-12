@@ -4,7 +4,7 @@ import com.spring.pattern.strategy.pay.MsgResult;
 
 /**
  * 支付渠道
- * Created by Tom.
+ *
  */
 public abstract class Payment {
 

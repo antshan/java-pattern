@@ -1,7 +1,7 @@
 package com.spring.pattern.delegate;
 
 /**
- * Created by Tom.
+ *
  */
 public class EmployeeB implements IEmployee {
     @Override

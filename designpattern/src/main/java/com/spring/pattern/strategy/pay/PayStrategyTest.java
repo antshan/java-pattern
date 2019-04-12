@@ -3,7 +3,7 @@ package com.spring.pattern.strategy.pay;
 import com.spring.pattern.strategy.pay.payport.PayStrategy;
 
 /**
- * Created by Tom.
+ *
  */
 public class PayStrategyTest {
 

@@ -1,7 +1,7 @@
 package com.spring.pattern.strategy.pay.payport;
 
 /**
- * Created by Tom.
+ *
  */
 public class WechatPay extends Payment {
 

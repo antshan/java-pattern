@@ -2,7 +2,7 @@ package com.spring.pattern.strategy.pay.payport;
 
 
 /**
- * Created by Tom.
+ *
  */
 public class AliPay extends Payment {
 

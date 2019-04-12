@@ -4,7 +4,7 @@ import com.spring.pattern.strategy.pay.payport.PayStrategy;
 import com.spring.pattern.strategy.pay.payport.Payment;
 
 /**
- * Created by Tom.
+ *
  */
 public class Order {
     private String uid;
